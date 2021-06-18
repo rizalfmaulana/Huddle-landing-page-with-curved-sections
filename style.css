@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap");
+
+:root {
+  --LightPink: hsl(321, 100%, 78%);
+  --Pink: hsl(322, 100%, 66%);
+  --LightRed: hsl(0, 100%, 63%);
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+/* section 1 */
+
+.logo {
+  width: 100%;
+}
+
+.community {
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+
+.p-hudle {
+  text-align: center;
+  width: 40%;
+  margin: 20px auto;
+}
+
+.try {
+  color: var(--Pink) !important;
+  border: 1px solid var(--Pink) !important;
+  border-radius: 20px !important;
+  padding: 5px 23px !important;
+}
+
+.try:hover {
+  background-color: white !important;
+  border: 1px solid var(--LightPink) !important;
+  color: var(--LightPink) !important;
+}
+
+.get {
+  color: white !important;
+  background-color: var(--Pink) !important;
+  border: 1px solid var(--Pink) !important;
+  border-radius: 20px !important;
+  padding: 8px 35px !important;
+}
+
+.get:hover {
+  color: white !important;
+  background-color: var(--LightPink) !important;
+  border: 1px solid var(--LightPink) !important;
+}
+
+.ties {
+  text-align: left !important;
+}
+
+.ties h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+/* section-2 */
+
+.grow {
+  padding-top: 20px;
+  background-color: #f6fcfe;
+}
+
+.grow h2 {
+  margin-top: 100px;
+}
+
+/* section-3 */
+.flow {
+  padding: 100px 0;
+}
+.flow h2 {
+  margin-top: 100px;
+}
+
+/* section-4 */
+
+.users {
+  background-color: #f6fcfe;
+  padding: 50px 0;
+}
+.users h2 {
+  margin-top: 100px;
+}
+
+/* section-5 */
+.ready {
+  padding: 120px 0;
+}
+
+/* footer */
+
+.footer {
+  padding: 100px 0;
+  background-color: #01262e;
+  color: white;
+  border: 1px solid #01262e;
+}
+
+.fab {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+.subret {
+  color: white !important;
+  background-color: var(--Pink) !important;
+  border: 1px solid var(--Pink) !important;
+  border-radius: 5px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+}
+
+.subret:hover {
+  color: white !important;
+  background-color: var(--LightPink) !important;
+  border: 1px solid var(--LightPink) !important;
+}
+
+@media (max-width: 576px) {
+  /* section-1 */
+  .logo {
+    width: 70%;
+  }
+  .navbar {
+    flex-wrap: nowrap !important;
+  }
+  .try {
+    width: 40%;
+  }
+  .p-hudle {
+    width: 100%;
+  }
+  .ties {
+    text-align: center !important;
+    padding-top: 50px;
+  }
+
+  /* section-2 */
+  .grow {
+    text-align: center;
+  }
+
+  /* section-2 */
+  .flow {
+    text-align: center;
+  }
+
+  /* section-3 */
+  .users {
+    text-align: center;
+  }
+
+  /* section-4 */
+  .ready h2 {
+    margin-bottom: 20px;
+  }
+
+  .subs {
+    text-align: right;
+  }
+}
